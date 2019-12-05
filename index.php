@@ -18,6 +18,8 @@
     <a>Sign In<a>
     <a>Sign Up<a>
   </div>
-  <img src="./images/download.jpg" class="home"/>
+  <div class="home"/>
+  </div>
+  
 </body>
 </html>

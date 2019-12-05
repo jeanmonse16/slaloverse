@@ -27,7 +27,7 @@ html{
   }
 
   .header{
-    background: #46185f;
+    background: #c72c41;
     height: 160px;
     display: flex;
     justify-content: center;
@@ -41,15 +41,22 @@ html{
 
   .navbar{
      background: #297ca0; 
+     color: #fff;
      height: 60px;  
      display: flex;
      justify-content: space-around;
      align-items: center;
   }
 
+  .navbar a:hover{
+     text-decoration: underline;
+  }
+
   .home{
-    height: 100%;
-    width: 100%;
+    background: #46185f;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 580;
 }
 
 
