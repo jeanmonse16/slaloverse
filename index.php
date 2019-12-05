@@ -15,11 +15,11 @@
     <a>Inicio<a>
     <a>Tickets<a>
     <a>Slalo Awards<a>
-    <a>Sign In<a>
+    <a href="./login.php">Sign In<a>
     <a>Sign Up<a>
   </div>
   <div class="home"/>
   </div>
-  
+
 </body>
 </html>

@@ -48,6 +48,10 @@ html{
      align-items: center;
   }
 
+  .navbar a{
+    text-decoration-style: none;
+ }
+
   .navbar a:hover{
      text-decoration: underline;
   }
