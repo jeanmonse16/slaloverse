@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    font-family: 'Anton', sans-serif;
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  body{
+    height: 100vh;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    width: 100%;
+  }
+
+  .header{
+    background: #46185f;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__img{
+      height: 300px;
+      width: 700px;
+  }
+
+  .navbar{
+     background: #297ca0; 
+     height: 60px;  
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+  }
+
+  .home{
+    height: 100%;
+    width: 100%;
+}
+
+
+  .btn-primary {
+      color: #fff;
+      background-color: #7DCD40;
+      border-color: #7DCD40;
+    }
+    
+  .btn-danger {
+      color: #fff;
+      background-color: #CD4040;
+      border-color: #CD4040;
+    }
+
+  .inputs{
+      width: 100%;
+      padding: 0.5rem 0;
+      background-color: #EAEDB9;
+  }
