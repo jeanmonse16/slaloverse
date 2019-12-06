@@ -25,6 +25,8 @@ if (!empty($_POST)) {
     $artista = new Artista();
     $artista->nombre = $_POST['nombre'];
     $artista->save();
+    $artista = Artista::all();
+    echo $artista[6]->nombre;
 }
 
 ?>
@@ -43,5 +45,6 @@ if (!empty($_POST)) {
             <input type="text" name="nombre" ><br>
             <button type="submit">Save</button>
         </form>
+        <h1></h1>
     </body>
 </html>
