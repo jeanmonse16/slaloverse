@@ -1,8 +1,15 @@
 <?php
 
+#Este es el archivo que controlara todas las entradas de la aplicación que modulos deben ejecutarse de acuerdo a lo que usuario quiere
+
+ini_set("display_errors", 1);
+ini_set("display_startup_errors", 1);
+error_reporting(E_ALL);
+
+
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 $capsule = new Capsule;
 
@@ -21,4 +28,8 @@ $capsule->setAsGlobal();
 
 $capsule->bootEloquent();
 
-$artista = new Artista;
+require_once "../view/index.php";
+
+$users = Capsule::table('artistas')->where('votos', '>', 30)->get();
+
+echo ($users[4]->nombre);
