@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
 
 html{
     box-sizing: border-box;
@@ -11,7 +12,9 @@ html{
   }
 
   h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: #297ca0;
   }
 
   button {
@@ -59,6 +62,7 @@ html{
   .navbar a:hover{
     text-decoration:underline ;
     cursor: pointer;
+    color: #e9ea77;
   }
 
   .navbar__row1 img{
@@ -79,6 +83,7 @@ html{
     overflow: scroll;
     padding: 30px;
     position: relative;
+    box-shadow: 0 5px 20px 20px rgba(0, 0, 0, 0.20);
   }
 
   .carousel__container{
@@ -117,6 +122,7 @@ html{
     height: 300px;
     object-fit: cover;
   }
+
   .carousel-item__details {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     font-size: 10px;
@@ -128,4 +134,155 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
+  }
+
+  .Pop-Section{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/pop-background.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .Pop-Section img{
+    object-fit: cover;
+  }
+
+  .Pop-Section__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Pop-Section__title h1{
+    font-size: 80px;
+  }
+
+  .Pop-Section__content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+  
+  .Pop-Section__row1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .Pop-Section__row2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .Pop-Section__row2 p{
+    font-size: 30px;
+    font-family: "Calistoga";
+  }
+
+  .Rock-Section{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/rock-background.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .Rock-Section img{
+    object-fit: cover;
+  }
+
+  .Rock-Section__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Rock-Section__title h1{
+    font-size: 80px;
+    color: #e9ea77;
+  }
+
+  .Rock-Section__content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+  
+  .Rock-Section__row1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .Rock-Section__row2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .Rock-Section__row2 p{
+    font-size: 30px;
+    font-family: "Calistoga";
+    color: #fff;
+  }
+
+  .Reggaeton-Section{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/reggaeton-background.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .Reggaeton-Section img{
+    object-fit: cover;
+  }
+
+  .Reggaeton-Section__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Reggaeton-Section__title h1{
+    font-size: 80px;
+    color: #c72c41;
+  }
+
+  .Reggaeton-Section__content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+  
+  .Reggaeton-Section__row1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .Reggaeton-Section__row2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .Reggaeton-Section__row2 p{
+    font-size: 30px;
+    font-family: "Calistoga";
+    color: black;
   }
