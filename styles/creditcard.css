@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: #297ca0;
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  body{
+    height: 100vh;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    width: 100%;
+  }
+
+  .paypal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment{
+      display: flex;
+      justify-content: center;
+  }
+
+  form{
+      display: block;
+  }
+
+  form input{
+      height: 40px;
+      width: 200px;
+      display: block;
+      margin-bottom: 15px;
+  }
+
+  form button{
+    color: #fff;
+    background-color: #c72c41;
+    border-color: #CD4040;
+    width: 200px;
+    height: 25px;
+  }

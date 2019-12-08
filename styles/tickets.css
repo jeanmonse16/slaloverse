@@ -90,6 +90,34 @@ html{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+  }
+
+  .tickets-container___row2{
+    padding-left: 80px;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .tickets-container___row2 input{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 0 0 15px 0;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  .tickets-container___row2 button{
+    margin-left: 100px;
+    color: #fff;
+    background-color: #c72c41;
+    border-color: #CD4040;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 30px;
   }
 
   .Badge {
@@ -97,7 +125,8 @@ html{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
-    height: 380px;
+    height: 400px;
+    width: 270px;
     
   }
   
@@ -124,6 +153,10 @@ html{
     padding: 0.5rem 0;
     background: #f4f4f7;
   }
+
+  .Badge__section-info img{
+    width: 50px;
+  }
   
   .Badge__avatar {
     border-radius: 50%;
@@ -137,7 +170,18 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #98ca3f;
+    color: #e9ea77;
     font-weight: bold;
     font-style: italic;
+  }
+  
+  p{
+      color: #c72c41;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 400px;
+    border-collapse: collapse;
+    border: 3px solid purple;
   }

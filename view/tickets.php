@@ -23,28 +23,50 @@
   </div>  
   <div class="tickets-container">
     <div class="tickets-container___row">
-    <div className="Badge">
-       <div className="Badge__header">
+    <div class="Badge">
+       <div class="Badge__header">
            <img width="200"src="../images/Slaloverse2.png"></img>
        </div>
 
-       <div className="Badge__section-name">
-           <h1>Jeanpier <br></br>Monserrate</h1>
+       <div class="Badge__section-name">
+           <h1>Jeanpier <br>Monserrate</h1>
        </div>
        
-       <div className="Badge__section-info ">
+       <div class="Badge__section-info ">
          <h5>  Monserrate@gmail.com </h5>
-         <p> id </p> 
+         <img src="../images/codigoqr.png"> </img> 
        </div>
        
-       <div className="Badge__footer">
+       <div class="Badge__footer">
           #slaloverse
        </div>
        
        </div>
     </div>
-    <div class="tickets-container___row">
-        hola
+    <div class="tickets-container___row2">
+      <form>
+        <h1> Compra tu ticket </h1>
+        <input  type="text" placeholder="Nombre">
+        <input  type="text" placeholder="Apellido">
+        <input  type="email" placeholder="Correo">
+        <input  type="password" placeholder="Edad">
+        <input  type="password" placeholder="Telefono">
+        <button class="button">Comprar</button>
+        <table border="1" class="table">
+            <tr>
+              <td><label for="correo_1">Descuento</label></td>
+              <td>Descuento</td>
+            </tr>
+            <tr>
+              <td><label for="correo_1">Subtotal</label></td>
+              <td>subtotal</td>
+            </tr>
+            <tr>
+              <td><label for="contraseña_1">Total</label></td>
+              <td>total</td>
+            </tr>
+        </table>
+      </form>
     </div>
   </div>
 </body>
