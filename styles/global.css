@@ -39,7 +39,7 @@ html{
      align-items: center;
      font-family: 'Bebas Neue', cursive;
      font-size: 25px;
-     box-shadow: 0 5px 20px 20px rgba(0, 0, 0, 0.20);
+     box-shadow: 0 5px 20px 15px1 rgba(0, 0, 0, 0.20);
   }
 
   .navbar__row1{
@@ -83,7 +83,6 @@ html{
     overflow: scroll;
     padding: 30px;
     position: relative;
-    box-shadow: 0 5px 20px 20px rgba(0, 0, 0, 0.20);
   }
 
   .carousel__container{
@@ -145,7 +144,7 @@ html{
   }
 
   .Pop-Section img{
-    object-fit: cover;
+    width: 700px;
   }
 
   .Pop-Section__title{
@@ -194,7 +193,7 @@ html{
   }
 
   .Rock-Section img{
-    object-fit: cover;
+    width: 700px;
   }
 
   .Rock-Section__title{
@@ -238,14 +237,14 @@ html{
 
   .Reggaeton-Section{
     width: 100%;
-    height: 500px;
+    height: 510px;
     background-image: url("../images/reggaeton-background.jpg");
     background-size: cover;
     position: relative;
   }
 
   .Reggaeton-Section img{
-    object-fit: cover;
+    width: 600px;
   }
 
   .Reggaeton-Section__title{

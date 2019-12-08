@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv=”Expires” content=”0″>
+    <meta http-equiv="Pragma" content="no-cache">
     <link rel="stylesheet" href="../styles/global.css">
     <title>Bienvenido al Slaloverse</title>
 </head>
@@ -67,20 +68,20 @@
     </div>
     <div class="Pop-Section__content">
       <div class="Pop-Section__row1">
-        <p> Disfruta de los artistas Pop más populares de la actualidad xd</p>
+        <img src="../images/Artistas_Pop.png" />
       </div>
       <div class="Pop-Section__row2">
         <p> Disfruta de los artistas Pop más populares de la actualidad</p>
       </div>
     </div>
-  </div><br>
+  </div>
   <div class="Rock-Section">
     <div class="Rock-Section__title">
       <h1> ROCK </h1>
     </div>
     <div class="Rock-Section__content">
       <div class="Rock-Section__row1">
-        <p> Disfruta de los artistas Pop más populares de la actualidad xd</p>
+        <img src="../images/Artistas_Rock.png"/>
       </div>
       <div class="Rock-Section__row2">
         <p> Ve en vivo a los artistas Rock más icónicos</p>
@@ -93,7 +94,7 @@
     </div>
     <div class="Reggaeton-Section__content">
       <div class="Reggaeton-Section__row1">
-        <p> Disfruta de los artistas Pop más populares de la actualidad xd</p>
+        <img src="../images/Artistas_Reggueton.png"/>
       </div>
       <div class="Reggaeton-Section__row2">
         <p> El mejor Reggaeton lo vives con nosotros!</p>

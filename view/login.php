@@ -22,15 +22,13 @@
   </div>
   <section class="login">
       <section class="login__container">
-        <h2>Regístrate</h2>
+        <h2>Inicia sesión</h2>
         <form class="login__container--form">
-          <input class="input" type="text" placeholder="Nombre">
-          <input class="input" type="text" placeholder="Apellido">
-          <input class="input" type="email" placeholder="Correo">
+          <input class="input" type="text" placeholder="Correo">
           <input class="input" type="password" placeholder="Contraseña">
-          <button class="button">Regístrate</button>
+          <button class="button">Iniciar sesión</button>
         </form>
-        <p class="login__container--register">¿Ya tienes cuenta? <a href="">Inicia Sesión</a></p>
+        <p class="login__container--register">¿No tienes ninguna cuenta? <a href="">Regístrate</a></p>
       </section>
   </section>
 </body>
