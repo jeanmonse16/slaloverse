@@ -152,8 +152,9 @@ html{
   }
 
   .Pop-Section img{
-    width: 700px;
-    padding-right: 60px;
+    width: 500px;
+    padding-right: 60x;
+    padding-bottom: 112px;
   }
 
   .Pop-Section__title{
@@ -202,7 +203,9 @@ html{
   }
 
   .Rock-Section img{
-    width: 700px;
+    width: 500px;
+    padding-right: 60x;
+    padding-bottom: 112px;
   }
 
   .Rock-Section__title{
@@ -253,7 +256,9 @@ html{
   }
 
   .Reggaeton-Section img{
-    width: 600px;
+    width: 500px;
+    padding-right: 60x;
+    padding-bottom: 112px;
   }
 
   .Reggaeton-Section__title{
