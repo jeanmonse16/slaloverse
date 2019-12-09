@@ -135,9 +135,17 @@ html{
     bottom: 0;
   }
 
-  .Pop-Section{
+  .container{
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Pop-Section{
+    width: 80%;
+    height: 400px;
     background-image: url("../images/pop-background.jpg");
     background-size: cover;
     position: relative;
@@ -145,6 +153,7 @@ html{
 
   .Pop-Section img{
     width: 700px;
+    padding-right: 60px;
   }
 
   .Pop-Section__title{
@@ -181,12 +190,12 @@ html{
 
   .Pop-Section__row2 p{
     font-size: 30px;
-    font-family: "Calistoga";
+    font-family: "Anton";
   }
 
   .Rock-Section{
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    height: 400px;
     background-image: url("../images/rock-background.jpg");
     background-size: cover;
     position: relative;
@@ -236,8 +245,8 @@ html{
   }
 
   .Reggaeton-Section{
-    width: 100%;
-    height: 510px;
+    width: 80%;
+    height: 400px;
     background-image: url("../images/reggaeton-background.jpg");
     background-size: cover;
     position: relative;
@@ -282,6 +291,6 @@ html{
 
   .Reggaeton-Section__row2 p{
     font-size: 30px;
-    font-family: "Calistoga";
+    font-family: "Anton";
     color: black;
   }

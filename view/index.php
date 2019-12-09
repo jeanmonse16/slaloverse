@@ -62,6 +62,7 @@
       </div>
     </div>
   </section>
+  <div class="container">
   <div class="Pop-Section">
     <div class="Pop-Section__title">
       <h1> POP </h1>
@@ -75,6 +76,8 @@
       </div>
     </div>
   </div>
+  </div>
+  <div class="container">
   <div class="Rock-Section">
     <div class="Rock-Section__title">
       <h1> ROCK </h1>
@@ -88,6 +91,8 @@
       </div>
     </div>
   </div>
+  </div>
+  <div class="container">
   <div class="Reggaeton-Section">
     <div class="Reggaeton-Section__title">
       <h1> REGGAETON </h1>
@@ -100,6 +105,7 @@
         <p> El mejor Reggaeton lo vives con nosotros!</p>
       </div>
     </div>
+  </div>
   </div>
 </body>
 </html>
