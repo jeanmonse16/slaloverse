@@ -77,3 +77,104 @@ html{
     justify-content: flex-end;
     align-items: center;
   }
+
+  .AwardSection{
+    width: 100%;
+    height: 580px;
+    background-image: url("../images/Portada_3.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .AwardSection img{
+    width: 700px;
+  }
+
+  .ArtistYear-Section{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .ArtistYear-nominee{
+    height: 120px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #297ca0;
+    display: flex;
+  }
+
+  .ArtistYear-nominee h2{
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  
+  .ArtistYear-img{
+    width: 200px;
+  }
+
+  .ArtistYear-img img{
+    width: 180px;
+    height: 120px;
+  }
+
+  .ArtistYear__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ArtistYear__title h1{
+    font-size: 80px;
+  }
+
+  .ArtistYear__content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+
+  .ArtistPop-Section{
+    width: 100%;
+    height: 700px;
+    background: #bbbbbb;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .ArtistPop-nominee{
+    height: 120px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #297ca0;
+    display: flex;
+  }
+
+  .ArtistPop-nominee h2{
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  
+  .ArtistPop-img{
+    width: 200px;
+  }
+
+  .ArtistPop-img img{
+    width: 180px;
+    height: 120px;
+  }
+
+  .ArtistPop__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ArtistPop__title h1{
+    font-size: 80px;
+  }
+
+  .ArtistPop__content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
