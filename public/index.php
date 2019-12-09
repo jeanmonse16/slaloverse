@@ -28,6 +28,17 @@ $capsule->setAsGlobal();
 
 $capsule->bootEloquent();
 
+$request = Zend\Diactoros\ServerRequestFactory::fromGlobals(
+    $_SERVER,
+    $_GET,
+    $_POST,
+    $_COOKIE,
+    $_FILES
+);
+
+#con diactoros usamos su clase para obtener la ruta actual de la aplicación, a traves de la variable request 
+var_dump($request->getUri()->getPath());
+
 require_once "../view/index.php";
 
 $users = Capsule::table('artistas')->where('votos', '>', 30)->get();
