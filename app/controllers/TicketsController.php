@@ -1,9 +1,6 @@
 <?php
 
-ini_set("display_errors", 1);
-ini_set("display_startup_errors", 1);
-error_reporting(E_ALL);
-
+session_start();
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 use App\Models\Register;
@@ -28,22 +25,10 @@ $capsule->setAsGlobal();
 
 $capsule->bootEloquent();
 
-$route = "../../user";
 
-if(!empty($_POST)){
-$users = new Register();
-$users->nombre = $_POST["nombre"];
-$users->apellido = $_POST["apellido"];
-$users->email = $_POST["correo"];
-$users->contraseña = $_POST["password"];
-$users->save();
-session_start();
-$_SESSION["email"] = $_POST["correo"];
-header("Location: ../../user");
+
+if($_SESSION["email"]){
+    header("Location: ../../tickets");
 }else{
-  echo"there was a mistake";
+    header("Location: ../../login");
 }
-
-?>
-
-

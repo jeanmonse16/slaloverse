@@ -39,7 +39,7 @@ html{
      align-items: center;
      font-family: 'Bebas Neue', cursive;
      font-size: 30px;
-     box-shadow: 0 5px 20px 15px rgba(0, 0, 0, 0.20);
+     box-shadow: 0 5px 20px 15px1 rgba(0, 0, 0, 0.20);
   }
 
   .navbar__row1{
@@ -79,68 +79,22 @@ html{
     align-items: center;
   }
 
-  .login {
+  .user{
+      display: flex;
+      justify-content: center;
+  }
+   
+  .button button{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 0px 30px;
-    min-height: calc(100vh - 200px);
-    height: 600px;
-  }
-  .login__container {
-    background-color:  #e9ea77;
-    border: 2px solid #297ca0;
-    border-radius: 40px;
-    color: white;
-    padding: 60px 68px 40px;
-    min-height: 400px;
-    width: 350px;
-  }
-  .login__container h2{
-      color: #297ca0;
-      font-family: "Bebas Neue";
-      font-size: 30px;
-  }
-  .login__container--form {
-    display: flex;
-    flex-direction: column;
-  }
-  .login__container--form input{
-    width: 200px;
-    height: 40px;
-    margin: 0 0 10px 0;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .login__container--form button{
     color: #fff;
     background-color: #c72c41;
     border-color: #CD4040;
     width: 200px;
     height: 25px;
   }
-  .login__container--form label {
-    font-size: 14px;
+
+  .button{
+      display: flex;
+      justify-content: center;
   }
-  .login__container--form label input{
-    height: 20px;
-  }
-  .login__container--remember-me {
-    color: #dfe9ee;
-    display: inline-flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
-  .login__container--remember-me a {
-    color: #297ca0;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  .login__container--remember-me a:hover {
-    text-decoration: underline;
-  }
-  
-  p{
-      color: #c72c41;
-  }
-  

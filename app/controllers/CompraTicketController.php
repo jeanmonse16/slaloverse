@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 
 use Illuminate\Database\Capsule\Manager as Capsule;
-use App\Models\Register;
+use App\Models\Ticket;
 use App\Models\Auth;
 
 require_once '../../vendor/autoload.php';
@@ -31,19 +31,16 @@ $capsule->bootEloquent();
 $route = "../../user";
 
 if(!empty($_POST)){
-$users = new Register();
-$users->nombre = $_POST["nombre"];
-$users->apellido = $_POST["apellido"];
-$users->email = $_POST["correo"];
-$users->contraseña = $_POST["password"];
-$users->save();
+$ticket = new Ticket();
+$ticket->nombre = $_POST["nombre"];
+$ticket->apellido = $_POST["apellido"];
+$ticket->email = $_POST["correo"];
+$ticket->save();
 session_start();
 $_SESSION["email"] = $_POST["correo"];
-header("Location: ../../user");
+header("Location: ../../");
 }else{
   echo"there was a mistake";
 }
 
 ?>
-
-

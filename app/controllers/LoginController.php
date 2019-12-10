@@ -29,27 +29,21 @@ $capsule->bootEloquent();
 
 if(!empty($_POST)){
     $user = Capsule::table("personas")->where("email",  $_POST["correo"])->first();
-    if($user){
-        if (password_verify($_POST['password'], $user->contraseña)) {
-        echo "siiii";
-      } 
-    } else{
+      if($user){
+        $password = Capsule::table("personas")->where("contraseña", $_POST["password"])->first();
+        if ($password) {
+          session_start();
+          $_SESSION["email"] = $_POST["correo"];
+          header("Location: ../../user");
+        } else{
         echo"nooooo";
+        } 
+      } else{
+        echo"error";
     }
 
-    }
+ }
 
 
 ?>
 
-<div class="navbar">
-    <div class="navbar__row1">
-      <a href=".."><img src="../images/Slaloverse2.png" /><a>
-      <a href="../tickets">Tickets<a>
-      <a href="../slalo-awards">Slalo Awards<a>
-    </div>
-    <div class="navbar__row2">
-      <a href="../login">Sign In<a>
-      <a href="/">Sign Up<a>
-    </div>
-  </div>

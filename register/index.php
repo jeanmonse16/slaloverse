@@ -12,7 +12,7 @@
   <div class="navbar">
     <div class="navbar__row1">
       <a href=".."><img src="../images/Slaloverse2.png" /><a>
-      <a href="../tickets">Tickets<a>
+      <a href="../app/controllers/TicketsController.php">Tickets<a>
       <a href="../slalo-awards">Slalo Awards<a>
     </div>
     <div class="navbar__row2">
@@ -30,7 +30,7 @@
           <input class="input" type="password" placeholder="Contraseña" name="password">
           <button class="button">Regístrate</button>
         </form>
-        <p class="login__container--register">¿Ya tienes cuenta? <a href="">Inicia Sesión</a></p>
+        <p class="login__container--register">¿Ya tienes cuenta? <a href="../login">Inicia Sesión</a></p>
       </section>
   </section>
 </body>

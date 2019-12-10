@@ -94,8 +94,8 @@ html{
 
   .carousel__item{
     background-color: palevioletred;
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
@@ -118,8 +118,8 @@ html{
   }
 
   .carousel-item__img {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     object-fit: cover;
   }
 

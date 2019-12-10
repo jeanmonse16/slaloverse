@@ -44,11 +44,11 @@
        </div>
     </div>
     <div class="tickets-container___row2">
-      <form>
+      <form action="../app/controllers/CompraTicketController.php" method="post">
         <h1> Compra tu ticket </h1>
-        <input  type="text" placeholder="Nombre">
-        <input  type="text" placeholder="Apellido">
-        <input  type="email" placeholder="Correo">
+        <input  type="text" placeholder="Nombre" name="nombre">
+        <input  type="text" placeholder="Apellido" name="apellido">
+        <input  type="email" placeholder="Correo" name="correo">
         <input  type="password" placeholder="Edad">
         <input  type="password" placeholder="Telefono">
         <button class="button">Comprar</button>
