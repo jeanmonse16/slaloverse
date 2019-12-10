@@ -17,8 +17,19 @@
       <a href="slalo-awards">Slalo Awards<a>
     </div>
     <div class="navbar__row2">
-      <a href="login">Sign In<a>
-      <a href="register">Sign Up<a>
+      <?php
+      ini_set("display_errors", 0);
+      session_start();
+      $user = "user";
+      $login = "login";
+      $register = "register";
+      if($_SESSION["email"]){
+        echo "<a href=$user>Tu cuenta<a>";
+      }else{
+        echo "<a href=$login>Sign In<a>
+                <a href=$register>Sign Up<a>";
+      }
+      ?>
     </div>
   </div>
   <section class="carousel">
