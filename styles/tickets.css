@@ -38,7 +38,7 @@ html{
      display: flex;
      align-items: center;
      font-family: 'Bebas Neue', cursive;
-     font-size: 25px;
+     font-size: 30px;
      box-shadow: 0 5px 20px 15px1 rgba(0, 0, 0, 0.20);
   }
 
@@ -52,6 +52,7 @@ html{
 
   .navbar a{
     margin: 0 10px 0 10px;
+    color:#fff; 
   }
 
   .navbar a:link{

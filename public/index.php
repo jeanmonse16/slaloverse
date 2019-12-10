@@ -1,5 +1,5 @@
 <?php
-
+define('BASE_URL','localhost/public/');
 #Este es el archivo que controlara todas las entradas de la aplicación que modulos deben ejecutarse de acuerdo a lo que usuario quiere
 
 ini_set("display_errors", 1);
@@ -8,6 +8,7 @@ error_reporting(E_ALL);
 
 
 use Illuminate\Database\Capsule\Manager as Capsule;
+use Aura\Router\RouterContainer;
 
 require_once '../vendor/autoload.php';
 
@@ -35,6 +36,21 @@ $request = Zend\Diactoros\ServerRequestFactory::fromGlobals(
     $_COOKIE,
     $_FILES
 );
+
+$routerContainer = new RouterContainer();
+$map = $routerContainer->getMap();
+$map->get('index', '/', '../view/index.php');
+$map->get('addJobs', '/jobs/add', '../view/tickets.php');
+
+
+$matcher = $routerContainer->getMatcher();
+$route = $matcher->match($request);
+
+if(!$route){
+    echo"No route $route";
+} else{
+    require $route->handler;
+}
 
 #con diactoros usamos su clase para obtener la ruta actual de la aplicación, a traves de la variable request 
 var_dump($request->getUri()->getPath());

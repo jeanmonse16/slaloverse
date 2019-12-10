@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv=”Expires” content=”0″>
     <meta http-equiv="Pragma" content="no-cache">
-    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <title>Bienvenido al Slaloverse</title>
 </head>
 <body>
   <div class="navbar">
     <div class="navbar__row1">
-      <a><img src="../images/Slaloverse2.png" /><a>
-      <a>Tickets<a>
-      <a>Slalo Awards<a>
+      <a href="/"><img src="../images/Slaloverse2.png" /><a>
+      <a href="tickets">Tickets<a>
+      <a href="slalo-awards">Slalo Awards<a>
     </div>
     <div class="navbar__row2">
-      <a href="./login">Sign In<a>
-      <a>Sign Up<a>
+      <a href="login">Sign In<a>
+      <a href="register">Sign Up<a>
     </div>
   </div>
   <section class="carousel">

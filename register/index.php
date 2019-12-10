@@ -11,23 +11,23 @@
 <body>
   <div class="navbar">
     <div class="navbar__row1">
-      <a><img src="../images/Slaloverse2.png" /><a>
-      <a>Tickets<a>
-      <a>Slalo Awards<a>
+      <a href=".."><img src="../images/Slaloverse2.png" /><a>
+      <a href="../tickets">Tickets<a>
+      <a href="../slalo-awards">Slalo Awards<a>
     </div>
     <div class="navbar__row2">
-      <a href="./login">Sign In<a>
-      <a>Sign Up<a>
+      <a href="../login">Sign In<a>
+      <a href="/">Sign Up<a>
     </div>
   </div>
   <section class="login">
       <section class="login__container">
         <h2>Regístrate</h2>
-        <form class="login__container--form">
-          <input class="input" type="text" placeholder="Nombre">
-          <input class="input" type="text" placeholder="Apellido">
-          <input class="input" type="email" placeholder="Correo">
-          <input class="input" type="password" placeholder="Contraseña">
+        <form action="../app/controllers/RegisterController.php" method="post" class="login__container--form">
+          <input class="input" type="text" placeholder="Nombre" name="nombre">
+          <input class="input" type="text" placeholder="Apellido" name="apellido">
+          <input class="input" type="email" placeholder="Correo" name="correo">
+          <input class="input" type="password" placeholder="Contraseña" name="password">
           <button class="button">Regístrate</button>
         </form>
         <p class="login__container--register">¿Ya tienes cuenta? <a href="">Inicia Sesión</a></p>
