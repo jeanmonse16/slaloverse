@@ -7,7 +7,6 @@ error_reporting(E_ALL);
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 use App\Models\Register;
-use App\Models\Auth;
 
 require_once '../../vendor/autoload.php';
 

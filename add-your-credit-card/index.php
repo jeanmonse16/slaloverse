@@ -12,9 +12,9 @@
     <img src="../images/paypal.png" alt="">
   </div>
   <div class="payment">
-  <form>
-      <input type="text" placeholder="credit card number" >
-      <input type="password" placeholder="account password" >
+  <form action="../app/controllers/CreditCardController.php" method="post">
+      <input type="text" placeholder="credit card number" name="creditcard">
+      <input type="password" placeholder="account password" name="card-password">
       <button>Submit</button>
   </form>
   </div>
