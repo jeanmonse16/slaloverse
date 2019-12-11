@@ -59,13 +59,13 @@
         <input  type="text" placeholder="Nombre" name="nombre" id="nombre" onChange="ModificaNombreTicket()" name="firstName">
         <input  type="text" placeholder="Apellido" name="apellido" id="apellido" onChange="ModificaApellidoTicket()">
         <input  type="email" placeholder="Correo" name="correo" id="correo" onChange="ModificaEmailTicket()">
-        <input  type="password" placeholder="Edad">
-        <input  type="password" placeholder="Telefono">
+        <input  type="text" placeholder="Edad" id="edad" onChange="Descontar()">
+        <input  type="text" placeholder="Telefono">
         <button class="button">Comprar</button>
         <table border="1" class="table">
             <tr>
               <td><label for="correo_1">Descuento</label></td>
-              <td>Descuento</td>
+              <td id="descuento"></td>
             </tr>
             <tr>
               <td><label for="correo_1">Subtotal</label></td>
@@ -73,7 +73,7 @@
             </tr>
             <tr>
               <td><label for="contraseña_1">Total</label></td>
-              <td>total</td>
+              <td id="total"></td>
             </tr>
         </table>
       </form>

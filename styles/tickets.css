@@ -126,7 +126,7 @@ html{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
-    height: 400px;
+    height: 405px;
     width: 270px;
     
   }
@@ -140,10 +140,8 @@ html{
   }
   
   .Badge__section-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+    display: block;
+    padding: 1rem 4rem;
   }
 
   .Badge__section-name h1{
@@ -155,7 +153,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
     background: #f4f4f7;
   }
 
