@@ -7,6 +7,7 @@
     <meta http-equiv=”Expires” content=”0″>
     <meta http-equiv="Pragma" content="no-cache">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="icon" href="images/favicon.ico" type="image/ico">
     <title>Bienvenido al Slaloverse</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
       <a href="/"><img src="../images/Slaloverse2.png" /><a>
       <a href="./app/controllers/TicketsController.php">Tickets<a>
       <a href="slalo-awards">Slalo Awards<a>
+      <a href="slalo-play">Slalo Play<a>
     </div>
     <div class="navbar__row2">
       <?php
@@ -49,6 +51,18 @@
       </div>
       <div class="carousel__item">
         <img class="carousel-item__img" src="../images/fest2.jpg">
+        <div class="carousel-item__details">
+          <p class="carousel-item__details--title"> Welcome </p>
+        </div>
+      </div>
+      <div class="carousel__item">
+        <img class="carousel-item__img" src="../images/Portada_3.jpg">
+        <div class="carousel-item__details">
+          <p class="carousel-item__details--title"> Welcome </p>
+        </div>
+      </div>
+      <div class="carousel__item">
+        <img class="carousel-item__img" src="../images/Portada_2.jpg">
         <div class="carousel-item__details">
           <p class="carousel-item__details--title"> Welcome </p>
         </div>

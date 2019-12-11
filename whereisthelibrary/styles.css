@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: #297ca0;
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  body{
+    height: 100vh;
+    margin: 0 auto;
+    overscroll-behavior: none;
+    width: 100%;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 400px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
