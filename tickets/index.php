@@ -39,12 +39,11 @@
            <img width="200"src="../images/Slaloverse2.png"></img>
        </div>
 
-       <div class="Badge__section-name">
-           <h1>Jeanpier <br>Monserrate</h1>
+       <div class="Badge__section-name" id="ticketName">
+           
        </div>
        
-       <div class="Badge__section-info ">
-         <h5>  Monserrate@gmail.com </h5>
+       <div class="Badge__section-info " id="ticketemail"> 
          <img src="../images/codigoqr.png"> </img> 
        </div>
        
@@ -57,9 +56,9 @@
     <div class="tickets-container___row2">
       <form action="../app/controllers/CompraTicketController.php" method="post">
         <h1> Compra tu ticket </h1>
-        <input  type="text" placeholder="Nombre" name="nombre">
-        <input  type="text" placeholder="Apellido" name="apellido">
-        <input  type="email" placeholder="Correo" name="correo">
+        <input  type="text" placeholder="Nombre" name="nombre" id="nombre" onChange="ModificaNombreTicket()" name="firstName">
+        <input  type="text" placeholder="Apellido" name="apellido" id="apellido" onChange="ModificaApellidoTicket()">
+        <input  type="email" placeholder="Correo" name="correo" id="correo" onChange="ModificaEmailTicket()">
         <input  type="password" placeholder="Edad">
         <input  type="password" placeholder="Telefono">
         <button class="button">Comprar</button>
@@ -70,7 +69,7 @@
             </tr>
             <tr>
               <td><label for="correo_1">Subtotal</label></td>
-              <td>subtotal</td>
+              <td>500 camatiums</td>
             </tr>
             <tr>
               <td><label for="contraseña_1">Total</label></td>
@@ -80,5 +79,6 @@
       </form>
     </div>
   </div>
+  <script src="../javascript/tickets.js"></script>
 </body>
 </html>

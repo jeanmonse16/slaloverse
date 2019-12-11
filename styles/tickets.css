@@ -145,6 +145,10 @@ html{
     align-items: center;
     padding: 1rem 0;
   }
+
+  .Badge__section-name h1{
+    display: block;
+  }
   
   .Badge__section-info {
     display: flex;
